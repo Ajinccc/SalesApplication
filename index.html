@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BIG BASKET</title>
+  <link rel="stylesheet" type="text/css" href="cart.css">
+
+  
+</head>
+<body>
+  <div class="container">
+  <div class="header">
+    <img src="https://www.thegreatapps.com/application/upload/Apps/2016/09/big-basket-9.png " alt="Logo">
+  </div>
+  <h1 class="head">BIG <span>BASKET</span></h1>
+  <br>
+  <header>
+
+  </header>
+  <p id="discountRule"></p>
+  <div id="products">
+    <h2 id="pro">PRODUCTS : QUANTITY : GIFT WRAP</h2>
+    <div class="product">
+      <br>
+      <br>
+      <label for="productA">Product A($20):</label>
+      <input type="number" id="productA" min="0">
+      <label for="giftWrapA">Gift Wrap:</label>
+      <input type="checkbox" id="giftWrapA">
+    
+    </div>
+    <div class="product">
+      <label for="productB">Product B($40):</label>
+      <input type="number" id="productB" min="0">
+      <label for="giftWrapB">Gift Wrap:</label>
+      <input type="checkbox" id="giftWrapB">
+    </div>
+    <div class="product">
+      <label for="productC">Product C($50):</label>
+      <input type="number" id="productC" min="0">
+      <label for="giftWrapC">Gift Wrap:</label>
+      <input type="checkbox" id="giftWrapC">
+    </div>
+  </div>
+
+  <button onclick="calculateTotal()">Calculate Total</button>
+
+  <div id="summary">
+    <h2>SUMMARY</h2>
+    <br>
+    <p id="subtotal">Subtotal: $0</p>
+    <p id="discount">Discount: $0</p>
+    <p id="shippingFee">Shipping Fee: $0</p>
+    <p id="giftWrapFee">Gift Wrap Fee: $0</p>
+    <div id="totalBox">
+      <h3>Total</h3>
+      <p id="totalAmount">$0</p>
+    </div>
+  
+  </div>
+</div>
+  <script src="cart.js"></script>
+</body>
+</html>

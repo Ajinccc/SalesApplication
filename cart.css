@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  padding: 20px;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://wallpaperaccess.com/full/6895806.jpg");
+  background-size: cover;
+
+    
+  }
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+ .head{
+  font-size: 80px;
+  color: red;
+ }
+  h1{
+    color: rgb(253, 253, 253);
+  }
+  #pro{
+    color:orangered;
+  }
+  
+   h2 {
+    color:rgb(236, 243, 236);
+    font-weight: bold;
+  }
+  h3{
+    color: green;
+    font-weight: bold;
+  }
+  
+  .product {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #summary {
+    margin-top: 20px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+  
+  #summary p, #summary h3 {
+    margin: 5px 0;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+ }
+
+
+
+#summary p, #summary h3 {
+  margin: 5px 0;
+}
+#total{
+  font-size: 50px;
+}
+#totalBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: inline-block;
+}
+
+#totalBox h3 {
+  margin: 0;
+}
+
+#totalAmount {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+#summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color:dodgerblue;
+  border-radius: 5px;
+  width: 400px;
+}
+
+#summary h2 {
+  margin-top: 0;
+}
+
+#summary p {
+  margin: 5px 0;
+}
+
+#summary label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#summary input {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  text-align: right;
+}
+
+#totalBox {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#totalBox h3 {
+  margin-top: 0;
+}
+
+#totalAmount {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 5px;
+}
+span{
+  color: black;
+}
